@@ -1,6 +1,6 @@
 from django.db import models
 from users.models import User
-from products.models import Product
+from goods.models import Product
 from django.utils import timezone
 
 # Constants

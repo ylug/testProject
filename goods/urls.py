@@ -1,7 +1,7 @@
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
-from products.views import ProductViewSet
-from products.apps import ProductsConfig
+from goods.views import ProductViewSet
+from goods.apps import ProductsConfig
 
 app_name = ProductsConfig.name
 

@@ -1,7 +1,7 @@
 from django.urls import include, path
 from rest_framework.routers import DefaultRouter
-from supplyers.views import SupplierViewSet
-from supplyers.apps import SupplyersConfig
+from supplier.views import SupplierViewSet
+from supplier.apps import SupplyersConfig
 
 app_name = SupplyersConfig.name
 

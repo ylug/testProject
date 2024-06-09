@@ -2,10 +2,10 @@ from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from django.shortcuts import get_object_or_404
 from users.models import User
-from supplyers.models import Supplier
-from products.permissions import IsAdmin, IsOwner
-from supplyers.serializers import SupplierSerializer
-from supplyers.filters import SupplierFilter
+from supplier.models import Supplier
+from goods.permissions import IsAdmin, IsOwner
+from supplier.serializers import SupplierSerializer
+from supplier.filters import SupplierFilter
 from django_filters.rest_framework import DjangoFilterBackend
 
 

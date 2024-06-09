@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from supplyers.models import Supplier
-from products.serializers import ProductSerializer
+from supplier.models import Supplier
+from goods.serializers import ProductSerializer
 
 
 class SupplierSerializer(serializers.ModelSerializer):

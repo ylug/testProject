@@ -1,10 +1,10 @@
 from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from django.shortcuts import get_object_or_404
-from products.models import Product
+from goods.models import Product
 from users.models import User
-from products.permissions import IsAdmin, IsOwner
-from products.serializers import ProductSerializer
+from goods.permissions import IsAdmin, IsOwner
+from goods.serializers import ProductSerializer
 
 
 class ProductViewSet(viewsets.ModelViewSet):

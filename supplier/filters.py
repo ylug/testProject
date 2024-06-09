@@ -1,5 +1,5 @@
 import django_filters
-from supplyers.models import Supplier
+from supplier.models import Supplier
 
 
 class SupplierFilter(django_filters.FilterSet):

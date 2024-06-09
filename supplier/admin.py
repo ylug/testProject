@@ -1,5 +1,5 @@
 from django.contrib import admin
-from supplyers.models import Supplier
+from supplier.models import Supplier
 
 
 @admin.register(Supplier)
